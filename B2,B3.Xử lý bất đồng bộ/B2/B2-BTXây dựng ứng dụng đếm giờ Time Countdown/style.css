@@ -1,0 +1,60 @@
+button {
+    border-radius: 5px;
+    border: none;
+    padding: 15px 30px;
+    font-size: 24px;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.3s ease all;
+    line-height: 1;
+    display: flex;
+    background-color: DodgerBlue;
+    color: white;
+  }
+ button:hover {
+    background: #eee;
+    color: #000;
+  }
+ .icon {
+    margin-right: 8px;
+  }
+ .reset {
+    font-size: 12px;
+    padding: 8px 16px;
+    margin: 50px auto 0;
+  }
+ 
+ 
+ 
+ 
+ .countdown {
+  line-height: 1;
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin-left: 6px;
+  width: 33px;
+  height: 24px;
+  }
+ .numbers {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  transition: 0.3s ease transform;
+  text-indent: 0;
+  }
+ .reset {
+  font-size: 12px;
+  padding: 8px 16px;
+  margin: 100px auto 0;
+  }
+ body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #3ca8de;
+  }
